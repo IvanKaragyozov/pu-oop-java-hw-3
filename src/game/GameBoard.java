@@ -27,7 +27,7 @@ public class GameBoard extends JFrame{
                 tile.setTiles(g);
             }
         }
-        turtle(g);
+             turtle(g);
     }
     /**
      *  Задаване на костенурките по случайни места на третия ред (без да се зачита центъра)
@@ -35,7 +35,7 @@ public class GameBoard extends JFrame{
     public void turtle (Graphics g){
 
         Random rand = new Random();
-        int firstTurtlePlace = rand.nextInt(2);
+        int firstTurtlePlace  = rand.nextInt(2);
         int secondTurtlePlace = rand.nextInt(2) + 3;
 
         g.setColor(Color.red);
