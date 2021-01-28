@@ -28,7 +28,7 @@ public class BoardTile extends JFrame {
         int tileX = this.col * this.tileSize;
         int tileY = this.row * this.tileSize;
 
-        if (this.row == 0 && this.col == 0) setTileColor(tileX, tileY, g, RED);
+             if (this.row == 0 && this.col == 0) setTileColor(tileX, tileY, g, RED);
         else if (this.row == 0 && this.col == 1) setTileColor(tileX, tileY, g, BLACK);
         else if (this.row == 0 && this.col == 2) setTileColor(tileX, tileY, g, WHITE);
         else if (this.row == 0 && this.col == 3) setTileColor(tileX, tileY, g, BLACK);
@@ -52,7 +52,7 @@ public class BoardTile extends JFrame {
         int tileX = this.col * this.tileSize;
         int tileY = this.row * this.tileSize;
 
-        if (this.row == 2 && this.col == 0) setTileColor(tileX, tileY, g, WHITE);
+             if (this.row == 2 && this.col == 0) setTileColor(tileX, tileY, g, WHITE);
         else if (this.row == 2 && this.col == 1) setTileColor(tileX, tileY, g, WHITE);
         else if (this.row == 2 && this.col == 2) setTileColor(tileX, tileY, g, WHITE);
         else if (this.row == 2 && this.col == 3) setTileColor(tileX, tileY, g, WHITE);
