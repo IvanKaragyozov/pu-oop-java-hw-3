@@ -8,8 +8,8 @@ public class BoardTile extends JFrame {
     private final int row;
     private final int col;
     private final int tileSize;
-    String RED = "RED";
-    String GRAY = "GRAY";
+    String RED   = "RED";
+    String GRAY  = "GRAY";
     String BLACK = "BLACK";
     String WHITE = "WHITE";
 
